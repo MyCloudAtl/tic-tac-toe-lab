@@ -1,0 +1,24 @@
+body {
+    background-color: rgba(245, 229, 2, 0.424);
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  h1, h2 {
+    padding: 0px 65px;
+  }
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    color:coral;
+  }
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    border-radius: 30%;
+    font-size: 64px;
+    text-align: center;
+  }
+  
